@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    background-color: rgb(198, 227, 252);
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+    margin: 5px;
+}
+
+.items-1.item {
+    background-color: rgb(198, 227, 252);
+}
+
+#leaderboard-list {
+    list-style-type: none;
+}
