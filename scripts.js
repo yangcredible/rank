@@ -1,10 +1,4 @@
-//import dictionaryOfObjects from './characters.js'
-
-const dictionaryOfObjects = {
-    ross: { name: "Ross", score: 1000, picture: true },
-    chandler: { name: "Chandler", score: 800, picture: true },
-    joey: { name: "Joey", score: 1200, picture: true },
-};
+import dictionaryOfObjects from './characters.js'
 
 function rankObjects(dictionaryOfObjects) {
     // Convert the dictionary to an array of objects for easier sorting
